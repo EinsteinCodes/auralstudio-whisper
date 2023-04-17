@@ -244,7 +244,7 @@ class Tokenizer:
 
         keeping basic punctuations like commas, periods, question marks, exclamation points, etc.
         """
-        symbols = list('"#()*+/:;<=>@[\\]^_`{|}~「」『』')
+        symbols = list('".,#()*+/:;<=>@[\\]^_`{|}~「」『』')
         symbols += (
             "<< >> <<< >>> -- --- -( -[ (' (\" (( )) ((( ))) [[ ]] {{ }} ♪♪ ♪♪♪".split()
         )
