@@ -284,8 +284,7 @@ class GreedyDecoder(TokenDecoder):
 
         completed = (tokens[:, -1] == self.eot).all()
         token_logits = torch.stack([logits[k, next_tokens[k]] for k in range(next_tokens .shape[0])], dim=0)
-        return tokens, completed
-
+        return tokens, completed, token_logits
     def finalize(self, tokens: Tensor, sum_logprobs: Tensor):
         # make sure each sequence has at least one EOT token at the end
         tokens = F.pad(tokens, (0, 1), value=self.eot)
