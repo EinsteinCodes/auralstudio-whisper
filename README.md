@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> This repository contains minor modifications on the original `whisper` implementation to better suit AuralStudio's needs. If you are looking ot use the original Whisper models released by OpenAI, [this](https://github.com/openai/whisper) is the repository you are looking for.
+> This repository contains minor modifications on the original Whisper implementation to suit AuralStudio's needs. If you are looking to use the original speech recognition models released by OpenAI, [this](https://github.com/openai/whisper) is the repository you are looking for.
  
 # Whisper
 
