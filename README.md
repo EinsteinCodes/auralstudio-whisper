@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This repository contains minor modifications on the original `whisper` implementation to better suit AuralStudio's needs. If you are looking ot use the original Whisper models released by OpenAI, [this](https://github.com/openai/whisper) is the repository you are looking for.
+ 
 # Whisper
 
 [[Blog]](https://openai.com/blog/whisper)
